@@ -1,0 +1,135 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav {
+    background-color: #f8d7da;
+    padding: 0.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #721c24;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #343a40;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+/* Styles for Projects View */
+.project {
+    margin-bottom: 20px;
+}
+
+.project h2 {
+    color: #007bff;
+}
+
+.project p {
+    color: #495057;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.project a {
+    color: #28a745;
+    text-decoration: underline;
+}
+
+/* Styles for Contact View */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #87CEFA; /* Light Blue color */
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-links a {
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+}
+
+
+
+/* 
+/*for project card */
+
